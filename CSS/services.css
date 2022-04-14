@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 1.7em;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  height: 65px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.container h1, .form-region h2 {
+  float: left;
+  width: 40%;
+  padding: 20px 15px;
+}
+
+.in-icon {
+  color: lightcoral;
+}
+
+nav {
+  float: right;
+  width: 30%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  float: left;
+  width: 33%;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+li a:hover, .current {
+  color: lightcoral;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.main {
+  padding: 20px 0;
+  color: #333;
+  text-align: justify;
+}
+
+.content {
+float: left;
+width: 70%;
+}
+
+.content h2, .form-area h2 {
+  margin: 15px 0;
+  font-size: 2rem;
+}
+
+.sub-content {
+  min-height: 100%;
+  padding: 25px;
+  background-color: lightcoral;
+}
+
+.sub-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.sub-content p {
+  margin-bottom: 15px;
+}
+
+.content1, .content2 {
+  margin-bottom: 10px;
+}
+
+.form-area {
+  float: right;
+  width: 25%;
+  background-color: lightcoral;
+  padding: 15px 10px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+button {
+  display: block;
+  width: 30%;
+  padding: 13px 8px;
+  border: #a9a9a9 2px solid;
+  background-color: #a9a9a9;
+}
+
+input {
+  width: 100%;
+  height: 25px;
+}
+
+input:focus {
+  outline-color: lightcoral;
+}
+
+textarea {
+  width: 100%;
+}
+
+textarea:focus {
+  outline-color: lightcoral;
+}
+
+footer {
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  /* Position 'fixed' is used to keep the footer in the bottom of the page. The height of the footer is also reduced to display the content of the page */
+  clear: both;
+  height: 40px;
+  background-color: lightcoral;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .container h1 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    float: none;
+    width: 100%;
+  }
+
+  .content, .form-area {
+    display: block;
+    float: none;
+    min-height: 100%;
+    width: 100%;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+}
